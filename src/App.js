@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import Intro from "./components/Intro";
 import Experience from "./components/Experience";
 import About from "./components/About";
@@ -16,7 +16,6 @@ function App() {
         <Projects></Projects>
         <Contact></Contact>
       </div>
-      <SidebarNav />
 
     </div>
   );
