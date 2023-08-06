@@ -3,7 +3,8 @@ import Intro from "./components/Intro";
 import Experience from "./components/Experience";
 import About from "./components/About";
 import Projects from "./components/Projects";
-import logo from './logo.svg';
+import Contact from "./components/Contact";
+// import logo from './logo.svg';
 import './App.css';
 
 function App() {
