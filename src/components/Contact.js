@@ -7,8 +7,8 @@ render(){
         <div id="contact">
             <h1>Contact</h1>
             <ul id="contact list">
-                <li>LinkedIn</li>
-                <li>Github</li>
+                <li> <a href="https://www.linkedin.com/in/ladi-bada-2a2460225/">LinkedIn</a></li>
+                <li> <a href="https://github.com/RumaboyLotti">Github</a></li>
                 <li>Email</li>
             </ul>
         </div>

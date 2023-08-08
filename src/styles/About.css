@@ -1,4 +1,16 @@
+@font-face {
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 14px;
+    src: url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,200&family=Rubik&display=swap');
+    font-family: 'Rubik',sans-serif;
+    font-style: normal;
+    font-weight: 24px;
+    src: url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,200&family=Rubik&display=swap');
+  }
+
 .about{
     text-align: left !important;
     word-wrap: break-word;
+  
 }
