@@ -22,9 +22,9 @@ const draw = {
         <motion.div id="intro">
         <motion.svg 
         width="605"
-         height="363" 
-         viewBox="0 0 1588 1258" 
-         fill="none" 
+        height="363" 
+        viewBox="0 0 1588 1258" 
+        fill="none" 
         xmlns="http://www.w3.org/2000/svg"
         initial="hidden"
         animate="visible">
