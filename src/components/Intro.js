@@ -6,7 +6,7 @@ class Intro extends React.Component{
 render(){
     return(
         <div id="intro">
-            <h1>Intro</h1>
+            <h1>Framer motion goes here</h1>
         </div>
     ); 
 } 
