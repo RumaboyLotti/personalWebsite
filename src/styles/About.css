@@ -12,5 +12,7 @@
 .about{
     text-align: left !important;
     word-wrap: break-word;
-  
+    font-family: Poppins;
+    font-style: normal;
+    
 }
