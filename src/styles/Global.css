@@ -1,9 +1,8 @@
 :root {
-    --Eggshell-White: #EAE7DC;
-    --Dark-Vanilla: #D8C3A5;
-    --Taupe-grey: #8E8D8A;
-    --Jelly-Bean-Red: #E98074;
-    --Jelly-Dark-Red: #E85A4F;
+    --Base-Color: #6D214F;
+    --Primary-Color: #F97F51;
+    --Secondary-Color:#FEA47F;
+    --Tertiary-Color: #B33771;
     /* FONT FAMILY 
     using Rubik for headers 
     Poppins for body 
