@@ -18,7 +18,7 @@ render(){
     );
     return(
         <div id="projects">
-            <Card sx={{ maxWidth: 345 }}>
+            <Card sx={{ maxWidth: 345 }} centered>
                 <CardContent>
                     <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>  
                         <h1>Projects</h1>   
