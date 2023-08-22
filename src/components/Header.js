@@ -4,11 +4,12 @@ import Tab from "@mui/material/Tab";
 import Box from "@mui/material/Box";
 
 class Header extends React.Component{
+    const [value, setValue] = React.useState('one');
     render(){
-        const [value, setValue] = this.state = { value: "one" };
+        
         const handleChange = (event, newValue) => {
             setValue(newValue);
-        };
+       
         return(
             <Box sx={{ width: '100%' }}>
                 <Tabs 
@@ -25,6 +26,7 @@ class Header extends React.Component{
                 </Tabs> 
             </Box>
         );
+         };
     };
 }
 export default Header;
