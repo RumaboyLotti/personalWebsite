@@ -4,7 +4,7 @@ import Tab from "@mui/material/Tab";
 import Box from "@mui/material/Box";
 
 class Header extends React.Component{
-    const [value, setValue] = React.useState('one');
+    // const [value, setValue] = React.useState('one');
     render(){
         
         const handleChange = (event, newValue) => {
@@ -13,11 +13,11 @@ class Header extends React.Component{
         return(
             <Box sx={{ width: '100%' }}>
                 <Tabs 
-                    value={value} 
-                    onChange={handleChange}
-                    textColor="secondary"
-                    indicatorColor="secondary"
-                    aria-label="secondary tabs example"
+                    // value={value} 
+                    // onChange={handleChange}
+                    // textColor="secondary"
+                    // indicatorColor="secondary"
+                    // aria-label="secondary tabs example"
                     >
                     <Tab value="one" label="About" />
                     <Tab value="two" label="Experience" />
