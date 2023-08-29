@@ -4,4 +4,7 @@
   /* text-align: center; */
   background-color: var(--Base-Color);
   text-align: center;
+  /* margin-left: 25%; */
+  padding-left: 15%;
+  padding-right: 15%;
 }

@@ -11,7 +11,7 @@ function Header() {
     };
     
     return (
-        <Box sx={{ width: '100%' }} style={{position: 'fixed'}} >
+        <Box sx={{ width: '100%' }} style={{position: 'relative'}} >
             <Tabs id="header" 
                 value={value} 
                 onChange={handleChange}
