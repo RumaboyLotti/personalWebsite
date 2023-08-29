@@ -20,9 +20,9 @@ function Header() {
                 aria-label="secondary tabs example"
             >
                 <a href="#about"><Tab value={0} label="About"/></a>
-                <Tab value={1} label="Experience" />
-                <Tab value={2} label="Projects" />
-                <Tab value={3} label="Contact" />
+                <a href="#experience"><Tab value={1} label="Experience" /></a>
+                <a href="#projects"><Tab value={2} label="Projects" /></a>
+                <a href="#contact"><Tab value={3} label="Contact" /></a>
             </Tabs> 
         </Box>
     );
