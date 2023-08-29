@@ -10,3 +10,20 @@
     */
     
 }
+p{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FEA47F;
+}
+h1{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 72px;
+    color: #F97F51;
+    text-align: start;
+}

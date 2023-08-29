@@ -11,15 +11,15 @@ function Header() {
     };
     
     return (
-        <Box sx={{ width: '100%' }}>
-            <Tabs 
+        <Box sx={{ width: '100%' }} style={{position: 'fixed'}} >
+            <Tabs id="header" 
                 value={value} 
                 onChange={handleChange}
                 textColor="secondary"
                 indicatorColor="secondary"
                 aria-label="secondary tabs example"
             >
-                <Tab value={0} label="About" />
+                <a href="#about"><Tab value={0} label="About"/></a>
                 <Tab value={1} label="Experience" />
                 <Tab value={2} label="Projects" />
                 <Tab value={3} label="Contact" />
