@@ -34,7 +34,7 @@ render(){
                         <h6>Js, and HTML</h6>
                     </Typography>
                 </CardContent>
-                </Card>   
+            </Card>   
             <Card sx={{ maxWidth: 345, backgroundColor: "#FEA47F" }} centered id ="card2">
                 <CardContent>
                     <Typography sx={{ fontSize: 10, color: "#B33771" }}  gutterBottom>

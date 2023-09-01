@@ -7,11 +7,11 @@ render(){
     return(
         <aside id="about">
             <h1>About</h1>
-            <p>My name is Ladi,
-            I am a software developer.
-            Majored in Information System and Technology, With a minor in Computer Science at University of Missouri Saint Louis .
-            I am a passionate and dedicated individual who is eager to learn and grow in the field of software development.
-            I Have also recently gotten a Raspberry PI, so i'm open to ideas.</p>
+            <p>My name is Ladi,<br />
+            I am a software developer.<br />
+            Majored in Information System and Technology,<br />Minored in Computer Science at the <br /> University of Missouri Saint Louis.<br />
+            I am a passionate and dedicated individual who is eager to<br /> learn and grow in the field of software development.<br />
+            I Have also recently gotten a Raspberry PI,<br /> so i'm open to ideas.</p>
 {/* 
             <figure id="Me"> 
                 <img src="https://i.imgur.com/5XZQq8M.jpg" alt="Ladi Bada" />  
