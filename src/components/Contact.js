@@ -11,9 +11,9 @@ render(){
         <div id="contact">
             <div id="table">
             <ul id="contact-list">
-                <li> <a href="https://www.linkedin.com/in/ladi-bada-2a2460225/"><LinkedInIcon></LinkedInIcon></a></li>
-                <li> <a href="https://github.com/RumaboyLotti"><GitHubIcon></GitHubIcon></a></li>
-                <li> <a href= "mailto:@dtyasinmax@gmail.com" > <EmailIcon></EmailIcon></a></li>
+                <li> <a href="https://www.linkedin.com/in/ladi-bada-2a2460225/"><LinkedInIcon sx={{ color: "#FEA47F"}}></LinkedInIcon></a></li>
+                <li> <a href="https://github.com/RumaboyLotti"><GitHubIcon sx={{ color: "#FEA47F"}}></GitHubIcon></a></li>
+                <li> <a href= "mailto:@dtyasinmax@gmail.com" > <EmailIcon sx={{ color: "#FEA47F"}}></EmailIcon></a></li>
             </ul>
             </div>
         </div>

@@ -14,11 +14,11 @@ render(){
                         Working with Databases to store and modify data</p>
                     </div>
                 <div id="card2">
-                    <li>Umsl IT Technician </li>
-                    <p>Solving technical issues from user error to software issues.
-                       Effective team communication and accountability. 
-                       Willingness to keep improving.
-                       Critical thinking and Analysis of operating UMSL’s system</p>
+                    <li>UMSL IT Technician </li>
+                    <p>Completed 300+ hours of rigorous computer science and software engineering training focused on full-stack development, data structures, and algorithms.
+                       Gained expertise in web application development by building projects using Python (Flask), HTML, CSS, and MySQL.    
+                       Collaborated in SCRUM-like teams to build projects, such as wordle implementation for newspaper website, password creator website.
+                    </p>
                     </div>
             </ul>
                 </div>
