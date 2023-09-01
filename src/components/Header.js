@@ -11,19 +11,18 @@ function Header() {
     };
     
     return (
-        <Box sx={{ width: '100%' }} style={{position: 'fixed'}} >
+        <Box sx={{ width: '100%' }}  >
             <Tabs id="header" 
                 value={value} 
                 onChange={handleChange}
                 textColor="secondary"
-                indicatorColor="secondary"
                 aria-label="secondary tabs example"
                 
             >
-                <a href="#about"><Tab sx={{ color: "#FEA47F"}} value={0} label="About"/></a>
-                <a href="#experience"><Tab sx={{ color: "#FEA47F"}} value={1} label="Experience" /></a>
-                <a href="#projects"><Tab sx={{ color: "#FEA47F"}} value={2} label="Projects" /></a>
-                <a href="#contact"><Tab sx={{ color: "#FEA47F"}} value={3} label="Contact" /></a>
+                <a href="#about"><Tab value={0} label="About"/></a>
+                <a href="#experience"><Tab value={1} label="Experience" /></a>
+                <a href="#projects"><Tab  value={2} label="Projects" /></a>
+                <a href="#contact"><Tab  value={3} label="Contact" /></a>
             </Tabs> 
         </Box>
     );
