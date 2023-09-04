@@ -15,7 +15,7 @@ function Header() {
             <Tabs id="header" 
                 value={value} 
                 onChange={handleChange}
-                textColor="secondary"
+                textColor="secondary"   
                 aria-label="secondary tabs example"
                 
             >
