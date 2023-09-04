@@ -19,7 +19,7 @@ render(){
     );
     return(
         <div>
-            <h1>Projects</h1>
+            <h1 id="projects">Projects</h1>
             <div id="cardholder">
             <Card sx={{ maxWidth: 345, backgroundColor: "#FEA47F" }} centered id ="card">
                 <CardContent>
