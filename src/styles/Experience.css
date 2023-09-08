@@ -2,11 +2,17 @@ li{
     font-weight: bold;
     font-style: Rubik;
     font-size: 24px;
+    list-style: none;
+    align-items: left;
 }
 p{
-    word-wrap: break-word;
     word-break: break-all;}
 #experience{
     padding-bottom: 5%;
+    align-items: left;
 } 
+#card1{
+    align-content: left;
+}
+
                                 
