@@ -10,7 +10,7 @@ render(){
                 <div id="card1">
                     <li>Seo Tech </li>
                     <p>Emphasis on Data Structures & Algorithms in Python, 
-                        Using Api’s to solve problems and impletent them into projects,
+                        Using Api’s to solve problems and implement them into projects,
                         Working with Databases to store and modify data</p>
                     </div>
                 <div id="card2">
