@@ -4,9 +4,9 @@ li{
     font-size: 24px;
     list-style: none;
     align-items: left;
+    color: var(--Primary-Color  );
 }
-p{
-    word-break: break-all;}
+
 #experience{
     padding-bottom: 5%;
     align-items: left;
