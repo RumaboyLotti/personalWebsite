@@ -1,14 +1,19 @@
 .table {
-	display: table;   /* Allow the centering to work */
-	margin: 0 auto;
+  display: table; /* Allow the centering to work */
+  margin: 0 auto;
 }
 
 ul#contact-list {
-	min-width: 696px;
-	list-style: none;
-	padding-top: 20px;
-	}
+  min-width: 696px;
+  list-style: none;
+  padding-top: 20px;
+}
 ul#contact-list li {
-		display: inline;
-        list-style: none;
-	}
+  display: inline;
+  list-style: none;
+}
+#table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
