@@ -1,10 +1,20 @@
 @import url("/Users/anticoffee/Documents/Webby/personalWebsite/src/styles/Global.css");
 
 .App {
-  /* text-align: center; */
+  text-align: center;
   background-color: var(--Base-Color);
   text-align: center;
-  /* margin-left: 25%; */
-  padding-left: 15%;
+  margin-left: 10%;
+  /* padding-left: 15%; */
   padding-right: 15%;
+  max-Width: 100%;
+  width: auto;
+}
+#about{
+  text-align: left ;
+  font-family: Rubik;
+  font-style: normal;
+  width: 50%;
+  font-size: 18px;  
+
 }

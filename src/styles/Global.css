@@ -10,14 +10,16 @@
     */
     
 }
-p{
-    font-family: Rubik;
+p, li {
+    font-family: Poppins;
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
-    line-height: 27px;
-    color: #FEA47F;
+    line-height: 72px;
+    color: #F97F51;
+    text-align: start;
 }
+
 h1{
     font-family: Rubik;
     font-style: normal;
