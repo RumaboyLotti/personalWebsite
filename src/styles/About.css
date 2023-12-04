@@ -12,12 +12,12 @@
   font-style: normal;
 }
 
-
 #about{
-    text-align: left !important;
-    font-family: Rubik;
-    font-style: normal;
-    width: 50%;
-    
-    
+  text-align: left ;
+  font-family: Rubik;
+  font-style: normal;
+  width: 50%;
+  font-size: 18px;
+  
 }
+
