@@ -1,19 +1,73 @@
+.contact{
+  display: flex;  
+  justify-content: left;
+  padding-left: 20px;
+}
+s
 .table {
-  display: table; /* Allow the centering to work */
+  display: table;   /* Allow the centering to work */
   margin: 0 auto;
 }
-
+#contact important {
+  display: flex;
+  align-items: flex-start;
+  margin-right: 20px; /* Adjust the margin as needed */
+}
 ul#contact-list {
   min-width: 696px;
   list-style: none;
   padding-top: 20px;
-}
+  }
 ul#contact-list li {
-  display: inline;
-  list-style: none;
-}
-#table {
+    display: inline;
+    list-style: none;
+  }
+#table{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+  form{
+    display: grid;
+    gap: 5px;
+    justify-content: left;
+    width: 500px; 
+  }
+  input[type=text]{
+    padding: 20px;
+    width: 50%;
+    border-radius: 10px;  
+    border: none;
+  }
+input[type=textfield]{
+  width: 50%; 
+  height: 75px; 
+  resize: none; 
+  border-radius: 10px;  
+  border: none;
+  word-wrap: break-word;
+}
+input[type=submit]{
+  background-color: #FFF;
+  width: 50%; 
+  border-radius: 10px;
+  resize: none; 
+  padding: 16px 32px;
+}
+textarea{
+  background-color: #FFF;
+  border: none;
+  padding: 16px 32px;
+  border-radius: 10px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 442px;
+  height: 160px;
+  resize: none; 
+} 
+label{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
