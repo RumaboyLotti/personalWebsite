@@ -11,12 +11,12 @@ class Contact extends React.Component{
           <section id="contact">
             <h1 id="contact-title"> Looking for me? </h1>
             <div id="contact">
-              <form action="/success" method="POST" name="contact">
-                <label for="name">Name</label>
+              <form action="/" method="POST" name="contact">
+                <label htmlFor="name">Name</label>
                 <input type="text" name="name" id="name" placeholder="Name" />
-                <label for="email">Email</label>
+                <label htmlFor="email">Email</label>
                 <input type="text" name="email" id="email" placeholder="Email" />
-                <label for="message">Message</label>
+                <label htmlFor="message">Message</label>
                 <textarea
                   type="textfield"
                   name="message"
