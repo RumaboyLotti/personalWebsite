@@ -36,6 +36,7 @@
   .main.nav li {
     display: inline;
     font-style: poppins;
+    word-spacing: even;
     
   }
   a{
