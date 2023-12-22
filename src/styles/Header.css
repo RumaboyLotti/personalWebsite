@@ -1,8 +1,44 @@
-#header{
-color: #B33771; 
-position: sticky; top: 0;
-padding-left: 5%;
+.header {
+  color: var(--Primary-Color);
+  cursor: pointer;
+  color: #fff;
+  font-size: 2em;
+  background-color:var( --Base-Color) !important;
+
 }
-#header:active{  
-    background-color: #F97F51;
+.sticky {
+  position: sticky;
+  top: 0;
+  width: 100% ;
+  align-items: left;
 }
+.bar {
+    position: sticky;
+    top: 0;
+      }  
+.bar::after { 
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+    height: 1px; /* Adjust the height to control the line thickness */
+    background-color: #fff;
+  }
+  .main.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    
+  }
+  
+  .main.nav li {
+    display: inline;
+    font-style: poppins;
+    
+  }
+  a{
+    text-decoration: none;
+    color: var(--Primary-Color);
+  }
