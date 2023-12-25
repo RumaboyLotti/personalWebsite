@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
-        <div id="content">
+
         <Header></Header>
         <Intro></Intro>
         <About></About>
@@ -20,8 +20,6 @@ function App() {
         <Contact></Contact>
         <Footer></Footer> 
       </div>
-
-    </div>
   );
 }
 

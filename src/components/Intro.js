@@ -1,13 +1,33 @@
 import React from "react";
+import { TypeAnimation } from 'react-type-animation';
 import "../styles/Intro.css";
 
 
 class Intro extends React.Component {
+
   render() {
     return (
-      <section className="Hero" role="img" aria-label="Image Description">
-        <h1>Hi! I'm Ladi</h1>
-      </section>
+      <div className="Hero">
+        <div className="Hero-Text">
+        <h1 id="Text">
+          <TypeAnimation
+          sequence={[
+            'Hello',
+            2000, // Waits 1s
+            'I am Ladi ',
+            2000, // Waits 2s
+            'Welcome ', 
+            () => {
+              console.log('Sequence completed');
+            },
+          ]}
+          wrapper="span"
+          cursor={true}
+          repeat={0}
+          style={{ fontSize: '2em', display: 'inline-block' }} />
+          </h1>
+        </div>
+      </div>
     );
   }
 }
