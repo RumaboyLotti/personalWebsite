@@ -1,4 +1,43 @@
-#intro{
-    text-align: center !important;
-    padding-top: 60px;
-}
+h1 {
+    font-style: normal;
+    font-weight: bold;
+    color: #eee;
+    font-size: 11vmin;
+    letter-spacing: 0.03em;
+    line-height: 1;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.8);
+    margin-bottom: 40px;
+  }
+
+  .Hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+  
+  .Hero-Text {
+    font-size: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+  
+    @media only screen and (min-width: 320px) {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    @media only screen and (min-width: 400px) {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+    @media only screen and (min-width: 680px) {
+      font-size: 75px;
+    }
+    @media only screen and (min-width: 950px) {
+      font-size: 100px;
+    }
+  }
+  
