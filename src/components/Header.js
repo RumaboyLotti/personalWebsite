@@ -1,31 +1,28 @@
-import React, { useState } from "react";
-import Tabs from "@mui/material/Tabs";
-import Tab from "@mui/material/Tab";
-import Box from "@mui/material/Box";
+import React from "react";  
+import "../styles/Global.css";
+import "../styles/Header.css";
+
 
 function Header() {
-    const [value, setValue] = useState(0);
-    
-    const handleChange = (event, newValue) => {
-        setValue(newValue);
-    };
-    
-    return (
-        <Box sx={{ width: '100%' }}  >
-            <Tabs id="header" 
-                value={value} 
-                onChange={handleChange}
-                textColor="secondary"   
-                aria-label="secondary tabs example"
-                
-            >
-                <a href="#about"><Tab sx={{ color: "#FEA47F"}} value={0} label="About"/></a>
-                <a href="#experience"><Tab sx={{ color: "#FEA47F"}}value={1} label="Experience" /></a>
-                <a href="#projects"><Tab sx={{ color: "#FEA47F"}}  value={2} label="Projects" /></a>
-                <a href="#contact"><Tab sx={{ color: "#FEA47F"}} value={3} label="Contact" /></a>
-            </Tabs> 
-        </Box>
-    );
+  return (
+
+    <nav className="header bar sticky">
+      <ol className="main nav">
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#experience">Experience</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ol>
+    </nav>
+  );
 }
 
 export default Header;
